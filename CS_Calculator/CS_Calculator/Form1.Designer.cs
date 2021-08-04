@@ -1,7 +1,7 @@
 ﻿
 namespace CS_Calculator
 {
-    partial class Form1
+    partial class FormCalculator
     {
         /// <summary>
         /// Required designer variable.
@@ -66,7 +66,7 @@ namespace CS_Calculator
             this.txtAnswer.Size = new System.Drawing.Size(100, 20);
             this.txtAnswer.TabIndex = 3;
             // 
-            // Form1
+            // FormCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -75,8 +75,8 @@ namespace CS_Calculator
             this.Controls.Add(this.txtNumber2);
             this.Controls.Add(this.txtNumber1);
             this.Controls.Add(this.cmdAdd);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormCalculator";
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
