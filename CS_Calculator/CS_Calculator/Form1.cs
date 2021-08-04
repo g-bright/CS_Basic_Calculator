@@ -24,7 +24,8 @@ namespace CS_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("test");
+            double result = double.Parse(txtNumber1.Text) + double.Parse(txtNumber2.Text);
+            txtAnswer.Text = result.ToString();
         }
     }
 }
