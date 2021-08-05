@@ -2,9 +2,9 @@ C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\bin\Debug\CS_
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\bin\Debug\CS_Calculator.exe
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\bin\Debug\CS_Calculator.pdb
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.csproj.AssemblyReference.cache
-C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.Form1.resources
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.Properties.Resources.resources
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.csproj.GenerateResource.cache
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.csproj.CoreCompileInputs.cache
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.exe
 C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.pdb
+C:\Users\gbright\Desktop\cs_calculator\CS_Calculator\CS_Calculator\obj\Debug\CS_Calculator.FormCalculator.resources

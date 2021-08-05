@@ -24,8 +24,15 @@ namespace CS_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double result = double.Parse(txtNumber1.Text) + double.Parse(txtNumber2.Text);
+            result = double.Parse(txtNumber1.Text) + double.Parse(txtNumber2.Text);
             txtAnswer.Text = result.ToString();
         }
+
+        private void cmdMultiply_Click(object sender, EventArgs e)
+        {
+            result = double.Parse(txtNumber1.Text) * double.Parse(txtNumber2.Text);
+            txtAnswer.Text = result.ToString();
+        }
+        double result; 
     }
 }

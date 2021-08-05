@@ -33,6 +33,7 @@ namespace CS_Calculator
             this.txtNumber1 = new System.Windows.Forms.TextBox();
             this.txtNumber2 = new System.Windows.Forms.TextBox();
             this.txtAnswer = new System.Windows.Forms.TextBox();
+            this.cmdMultiply = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmdAdd
@@ -66,11 +67,22 @@ namespace CS_Calculator
             this.txtAnswer.Size = new System.Drawing.Size(100, 20);
             this.txtAnswer.TabIndex = 3;
             // 
+            // cmdMultiply
+            // 
+            this.cmdMultiply.Location = new System.Drawing.Point(313, 227);
+            this.cmdMultiply.Name = "cmdMultiply";
+            this.cmdMultiply.Size = new System.Drawing.Size(75, 23);
+            this.cmdMultiply.TabIndex = 4;
+            this.cmdMultiply.Text = "Multiply";
+            this.cmdMultiply.UseVisualStyleBackColor = true;
+            this.cmdMultiply.Click += new System.EventHandler(this.cmdMultiply_Click);
+            // 
             // FormCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmdMultiply);
             this.Controls.Add(this.txtAnswer);
             this.Controls.Add(this.txtNumber2);
             this.Controls.Add(this.txtNumber1);
@@ -89,6 +101,7 @@ namespace CS_Calculator
         private System.Windows.Forms.TextBox txtNumber1;
         private System.Windows.Forms.TextBox txtNumber2;
         private System.Windows.Forms.TextBox txtAnswer;
+        private System.Windows.Forms.Button cmdMultiply;
     }
 }
 
